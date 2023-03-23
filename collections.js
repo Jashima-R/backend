@@ -18,6 +18,7 @@ const userInfoSchema=new mongoose.Schema(
 );
 mongoose.model("userInfo",userInfoSchema);
 
+
 //productDetails
 const productInfoSchema=new mongoose.Schema(
     {
@@ -48,3 +49,5 @@ const orderInfoSchema=new mongoose.Schema(
     }
 );
 mongoose.model("orderInfo",orderInfoSchema);
+
+
